@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 // TODO: Replace with real asset paths or <Image /> components from your framework
 import screenshot1 from "../assets/ss1.png";
@@ -148,7 +149,14 @@ const LinkmailLandingPage = () => {
 
       {/* Footer */}
       <footer className="w-full py-10 bg-gray-900 text-gray-400 text-center text-sm">
-        &copy; {new Date().getFullYear()} Linkmail. All rights reserved.
+        <div className="mb-2">
+          &copy; {new Date().getFullYear()} Linkmail. All rights reserved.
+        </div>
+        <div>
+          <Link href="https://igupta1.github.io/linkmail-privacy-policy/privacy-policy" className="hover:text-white transition-colors">
+            Privacy Policy
+          </Link>
+        </div>
       </footer>
     </main>
   );
