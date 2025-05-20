@@ -153,7 +153,7 @@ const LinkmailLandingPage = () => {
           &copy; {new Date().getFullYear()} Linkmail. All rights reserved.
         </div>
         <div>
-          <Link href="https://igupta1.github.io/linkmail-privacy-policy/privacy-policy" className="hover:text-white transition-colors">
+          <Link href="/privacy-policy" className="hover:text-white transition-colors">
             Privacy Policy
           </Link>
         </div>
