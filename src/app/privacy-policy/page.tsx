@@ -93,6 +93,11 @@ export default function PrivacyPolicy() {
         <li>The use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.</li>
       </ul>
       
+      <h2 className="text-xl font-semibold mb-3">AI/ML Usage</h2>
+      <p className="mb-4">
+        We do not use Google Workspace APIs to develop, improve, or train generalized AI and/or ML models. Our application strictly adheres to the Google API Services User Data Policy, ensuring that any data accessed through Google APIs is used solely for the intended purposes and not for generalized AI/ML model training.
+      </p>
+      
       <h2 className="text-xl font-semibold mb-3">Your Choices</h2>
       <p className="mb-4">
         You can:
